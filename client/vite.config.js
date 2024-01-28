@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/flask-vue-crud',
   plugins: [vue()],
   resolve: {
     alias: {
